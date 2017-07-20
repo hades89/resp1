@@ -1,0 +1,13 @@
+widget.web:
+  layout: circleLayout
+  icon: horizontalIcon
+  title: Live Chat
+  position: leftBottom
+  colour: ef
+widget.mobile:
+  layout: circleLayout
+  icon: horizontalIconMobile
+  title: Live Chat
+  position: leftBottom
+  colour: ef
+   
