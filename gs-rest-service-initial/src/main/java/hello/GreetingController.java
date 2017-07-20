@@ -27,7 +27,7 @@ public class GreetingController {
 	@RequestMapping(value = "/greetings/{greetingId}", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
 	public GreetingRequest greeting(@PathVariable int greetingId, @RequestBody GreetingRequest request,  HttpServletRequest a) {
 		UriComponents uri = UriComponentsBuilder
-				.fromHttpUrl("http://localhost:8585/app/image/{a}/{b}/{c}")
+				.fromHttpUrl("http://localhost:8585/app/images/{a}/{b}/{c}")
 				.buildAndExpand("someId", "somePublicUrl", "someFilename");
 		String urlString = uri.toUriString();
 		
