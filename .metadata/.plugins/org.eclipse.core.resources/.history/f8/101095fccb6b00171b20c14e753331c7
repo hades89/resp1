@@ -1,0 +1,154 @@
+/**
+ * 
+ */
+package hello;
+
+import java.io.UnsupportedEncodingException;
+import java.net.URI;
+import java.util.List;
+
+import org.springframework.util.MultiValueMap;
+import org.springframework.web.util.UriComponents;
+import org.springframework.web.util.UriComponentsBuilder;
+
+/**
+ * @author QJ
+ *
+ */
+public class UrlBuilder extends UriComponents{
+
+	/**
+	 * @param scheme
+	 * @param fragment
+	 */
+	protected UrlBuilder(String scheme, String fragment) {
+		super(scheme, fragment);
+	}
+
+	/* (non-Javadoc)
+	 * @see org.springframework.web.util.UriComponents#copyToUriComponentsBuilder(org.springframework.web.util.UriComponentsBuilder)
+	 */
+	@Override
+	protected void copyToUriComponentsBuilder(UriComponentsBuilder arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	/* (non-Javadoc)
+	 * @see org.springframework.web.util.UriComponents#encode(java.lang.String)
+	 */
+	@Override
+	public UriComponents encode(String arg0) throws UnsupportedEncodingException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see org.springframework.web.util.UriComponents#expandInternal(org.springframework.web.util.UriComponents.UriTemplateVariables)
+	 */
+	@Override
+	UriComponents expandInternal(UriTemplateVariables arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see org.springframework.web.util.UriComponents#getHost()
+	 */
+	@Override
+	public String getHost() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see org.springframework.web.util.UriComponents#getPath()
+	 */
+	@Override
+	public String getPath() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see org.springframework.web.util.UriComponents#getPathSegments()
+	 */
+	@Override
+	public List<String> getPathSegments() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see org.springframework.web.util.UriComponents#getPort()
+	 */
+	@Override
+	public int getPort() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	/* (non-Javadoc)
+	 * @see org.springframework.web.util.UriComponents#getQuery()
+	 */
+	@Override
+	public String getQuery() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see org.springframework.web.util.UriComponents#getQueryParams()
+	 */
+	@Override
+	public MultiValueMap<String, String> getQueryParams() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see org.springframework.web.util.UriComponents#getSchemeSpecificPart()
+	 */
+	@Override
+	public String getSchemeSpecificPart() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see org.springframework.web.util.UriComponents#getUserInfo()
+	 */
+	@Override
+	public String getUserInfo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see org.springframework.web.util.UriComponents#normalize()
+	 */
+	@Override
+	public UriComponents normalize() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see org.springframework.web.util.UriComponents#toUri()
+	 */
+	@Override
+	public URI toUri() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see org.springframework.web.util.UriComponents#toUriString()
+	 */
+	@Override
+	public String toUriString() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

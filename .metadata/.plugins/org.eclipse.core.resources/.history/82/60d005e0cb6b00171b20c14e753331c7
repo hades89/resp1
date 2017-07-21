@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package hello;
+
+import org.springframework.web.util.UriComponents;
+
+/**
+ * @author QJ
+ *
+ */
+public class UrlBuilder extends UriComponents{
+
+}
