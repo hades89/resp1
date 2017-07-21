@@ -3,8 +3,6 @@
  */
 package hello;
 
-import javax.validation.constraints.NotNull;
-
 /**
  * @author QJ
  *
